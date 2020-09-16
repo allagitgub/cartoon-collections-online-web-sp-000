@@ -18,7 +18,7 @@ end
 def find_the_cheese(ingridients)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  return ingridients.include? cheese_types[0] ||
-  ingridients.include? cheese_types[1] ||
-  ingridients.include? cheese_types[2] ? true : false
+  return ingridients.include?(cheese_types[0]) ||
+  ingridients.include?(cheese_types[1]) ||
+  ingridients.include?(cheese_types[2]) ? true : false
 end
