@@ -20,5 +20,5 @@ def find_the_cheese(ingridients)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   ingridients.include? cheese_types[0] ||
   ingridients.include? cheese_types[1] ||
-  ingridients.include? cheese_types[2]
+  ingridients.include? cheese_types[2] ? true : false
 end
